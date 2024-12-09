@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/IBNESSAYEH/my_portfolio/static/css/main.b90659c9.css",
-    "main.js": "/IBNESSAYEH/my_portfolio/static/js/main.4660b25b.js",
-    "static/media/evento2.PNG": "/IBNESSAYEH/my_portfolio/static/media/evento2.57abe4ca61826a59d7c7.PNG",
-    "static/media/samsar3.PNG": "/IBNESSAYEH/my_portfolio/static/media/samsar3.7dba92c78f5fad8fe2d1.PNG",
-    "static/media/sql.png": "/IBNESSAYEH/my_portfolio/static/media/sql.945836a24cfdbf3b9650.png",
-    "static/media/hunters-league-png": "/IBNESSAYEH/my_portfolio/static/media/hunters-league-6735f5eadd465974114435.973e9091ee8dc047883a.png",
-    "static/media/construction-et-de-la-renovation-de-cuisines-des-restaurant-webp": "/IBNESSAYEH/my_portfolio/static/media/construction-et-de-la-renovation-de-cuisines-des-restaurant-66e2b438b8ffa572958867.a3de68f14a40249b5c31.webp",
-    "static/media/myPicture.png": "/IBNESSAYEH/my_portfolio/static/media/myPicture.d99163ff0032aa157683.png",
-    "static/media/laravel.png": "/IBNESSAYEH/my_portfolio/static/media/laravel.a99f563b2979f37ed70f.png",
-    "static/media/reactjs.jpg": "/IBNESSAYEH/my_portfolio/static/media/reactjs.7d1e7c9344328aa7d307.jpg",
-    "static/media/js.png": "/IBNESSAYEH/my_portfolio/static/media/js.ce84dc9cb0c681bedbbd.png",
-    "static/media/git.png": "/IBNESSAYEH/my_portfolio/static/media/git.7e51089ce42967fc6b1e.png",
-    "static/media/php.png": "/IBNESSAYEH/my_portfolio/static/media/php.2478f86d0b9b3d79284d.png",
-    "static/media/samsar1.PNG": "/IBNESSAYEH/my_portfolio/static/media/samsar1.6d8552ab68442244aa13.PNG",
-    "static/media/samsar2.PNG": "/IBNESSAYEH/my_portfolio/static/media/samsar2.d1356c8b81ca113927ff.PNG",
-    "static/media/evento1.PNG": "/IBNESSAYEH/my_portfolio/static/media/evento1.f383a48a6162556e3d81.PNG",
-    "static/media/javaEE.png": "/IBNESSAYEH/my_portfolio/static/media/javaEE.057ee33e7b9d41ff0d92.png",
-    "static/media/ana.png": "/IBNESSAYEH/my_portfolio/static/media/ana.a796d16a14dfd0c6236f.png",
-    "index.html": "/IBNESSAYEH/my_portfolio/index.html",
-    "main.b90659c9.css.map": "/IBNESSAYEH/my_portfolio/static/css/main.b90659c9.css.map",
-    "main.4660b25b.js.map": "/IBNESSAYEH/my_portfolio/static/js/main.4660b25b.js.map"
+    "main.css": "/my_portfolio/static/css/main.b90659c9.css",
+    "main.js": "/my_portfolio/static/js/main.fcae31f7.js",
+    "static/media/evento2.PNG": "/my_portfolio/static/media/evento2.57abe4ca61826a59d7c7.PNG",
+    "static/media/samsar3.PNG": "/my_portfolio/static/media/samsar3.7dba92c78f5fad8fe2d1.PNG",
+    "static/media/sql.png": "/my_portfolio/static/media/sql.945836a24cfdbf3b9650.png",
+    "static/media/hunters-league-png": "/my_portfolio/static/media/hunters-league-6735f5eadd465974114435.973e9091ee8dc047883a.png",
+    "static/media/construction-et-de-la-renovation-de-cuisines-des-restaurant-webp": "/my_portfolio/static/media/construction-et-de-la-renovation-de-cuisines-des-restaurant-66e2b438b8ffa572958867.a3de68f14a40249b5c31.webp",
+    "static/media/myPicture.png": "/my_portfolio/static/media/myPicture.d99163ff0032aa157683.png",
+    "static/media/laravel.png": "/my_portfolio/static/media/laravel.a99f563b2979f37ed70f.png",
+    "static/media/reactjs.jpg": "/my_portfolio/static/media/reactjs.7d1e7c9344328aa7d307.jpg",
+    "static/media/js.png": "/my_portfolio/static/media/js.ce84dc9cb0c681bedbbd.png",
+    "static/media/git.png": "/my_portfolio/static/media/git.7e51089ce42967fc6b1e.png",
+    "static/media/php.png": "/my_portfolio/static/media/php.2478f86d0b9b3d79284d.png",
+    "static/media/samsar1.PNG": "/my_portfolio/static/media/samsar1.6d8552ab68442244aa13.PNG",
+    "static/media/samsar2.PNG": "/my_portfolio/static/media/samsar2.d1356c8b81ca113927ff.PNG",
+    "static/media/evento1.PNG": "/my_portfolio/static/media/evento1.f383a48a6162556e3d81.PNG",
+    "static/media/javaEE.png": "/my_portfolio/static/media/javaEE.057ee33e7b9d41ff0d92.png",
+    "static/media/ana.png": "/my_portfolio/static/media/ana.a796d16a14dfd0c6236f.png",
+    "index.html": "/my_portfolio/index.html",
+    "main.b90659c9.css.map": "/my_portfolio/static/css/main.b90659c9.css.map",
+    "main.fcae31f7.js.map": "/my_portfolio/static/js/main.fcae31f7.js.map"
   },
   "entrypoints": [
     "static/css/main.b90659c9.css",
-    "static/js/main.4660b25b.js"
+    "static/js/main.fcae31f7.js"
   ]
 }
