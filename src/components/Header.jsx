@@ -35,8 +35,8 @@ const Header = () => {
             Get in Touch
           </a>
           <a 
-            href="/IBNESSAYEH_Abdellatif_CV_JAVA.pdf" 
-            download="https://ibnessayeh.github.io/my_portfolio/IBNESSAYEH_Abdellatif_CV_JAVA.pdf" 
+            href="IBNESSAYEH_Abdellatif_CV_JAVA.pdf" 
+            download="public/IBNESSAYEH_Abdellatif_CV_JAVA.pdf" 
             className="px-6 py-2 text-[#55E5A4] border border-[#55E5A4] font-semibold rounded-md hover:bg-[#55E5A4] hover:text-gray-900 transition-all"
           >
             Download CV
