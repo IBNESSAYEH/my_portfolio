@@ -1,11 +1,11 @@
 import React, { createContext, useState } from 'react';
-import reactJSImg from '../images/reactjs.jpg';
-import phpImg from '../images/php.png';
-import jsImg from '../images/js.png';
-import laravelImg from '../images/laravel.png';
-import sqlImg from '../images/sql.png';
-import gitImg from '../images/git.png';
-import javaEEImg from '../images/javaEE.png';
+import reactJSImg from '../assets/images/reactjs.jpg';
+import phpImg from '../assets/images/php.png';
+import jsImg from '../assets/images/js.png';
+import laravelImg from '../assets/images/laravel.png';
+import sqlImg from '../assets/images/sql.png';
+import gitImg from '../assets/images/git.png';
+import javaEEImg from '../assets/images/javaEE.png';
 
 export const CertificationsContext = createContext();
 
@@ -49,7 +49,9 @@ export const CertificationsProvider = ({ children }) => {
   ]);
 
   return (
-    <CertificationsContext.Provider value={{ certificates }}>
+    <CertificationsContext.Provider value={{ 
+      certificates 
+      }}>
       {children}
     </CertificationsContext.Provider>
   );

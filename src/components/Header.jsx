@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import myPicture from '../images/myPicture.png';
+import myPicture from '../assets/images/myPicture.png';
 import { PortfolioContext } from '../contexts/PortfolioContext';
 
 const Header = () => {
@@ -21,25 +21,35 @@ const Header = () => {
   }, [title]);
 
   return (
-    <section className="flex flex-col md:flex-row items-center p-8 bg-gray-800 text-white relative animate-fadeIn">
-      <div className="md:w-3/5 space-y-4 md:mr-8">
-        <h1 className="text-4xl font-bold text-[#55E5A4]">{displayedTitle}</h1>
-        <p className="text-md md:text-lg">
+    <section id="header" className="flex flex-col md:flex-row items-center md:items-start p-8 bg-gray-800 text-white relative animate-fadeIn">
+      <div className="w-full md:w-3/4 space-y-4 text-center md:text-left">
+        <h2 className="text-2xl sm:text-2xl lg:text-5xl font-bold text-[#55E5A4]">{displayedTitle}</h2>
+        <p className="text-sm sm:text-md md:text-lg">
           I’m a Fullstack Developer skilled in building robust, user-focused web applications.
         </p>
-        <div className="flex space-x-4 mb-4">
-          <a href="mailto:abdellatifibnessayeh@gmail.com" className="px-6 py-2 bg-[#55E5A4] text-gray-900 font-semibold rounded-md hover:bg-opacity-90 transition-all">Get in Touch</a>
+        <div className="flex justify-center md:justify-start space-x-4 mb-4">
           <a 
-            href="/Abdellatif_IBNESSAYEH_CV.pdf" 
-            download="Abdellatif_IBNESSAYEH_CV.pdf" 
+            href="mailto:abdellatifibnessayeh@gmail.com" 
+            className="px-6 py-2 bg-[#55E5A4] text-gray-900 font-semibold rounded-md hover:bg-opacity-90 transition-all"
+          >
+            Get in Touch
+          </a>
+          <a 
+            href="/IBNESSAYEH_Abdellatif_CV_JAVA.pdf" 
+            download="public/IBNESSAYEH_Abdellatif_CV_JAVA.pdf" 
             className="px-6 py-2 text-[#55E5A4] border border-[#55E5A4] font-semibold rounded-md hover:bg-[#55E5A4] hover:text-gray-900 transition-all"
           >
             Download CV
           </a>
         </div>
       </div>
-      <div className=" mt-8 md:mt-0 hover:scale-100 transition-transform duration-700">
-        <img src={myPicture} alt="Abdellatif's Picture" className="w-full h-auto object-cover border-4 border-[#55E5A4] rounded-lg shadow-lg" />
+   
+      <div className="w-32 sm:w-40 md:w-48 mt-4 md:mt-0 md:ml-8 hidden md:block">
+        <img 
+          src={myPicture} 
+          alt="Abdellatif's Picture" 
+          className="w-full h-auto object-cover border-4 border-[#55E5A4] rounded-full shadow-lg"
+        />
       </div>
     </section>
   );

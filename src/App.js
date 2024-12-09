@@ -9,6 +9,7 @@ import { PortfolioProvider } from './contexts/PortfolioContext';
 import { CertificationsProvider } from './contexts/CertificationsContext';
 import './index.css';
 import 'flowbite';
+import Expertise from './components/Expertise';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <div className="pt-20">
           <Header />
           <AboutMe />
+          <Expertise/>
           <Projects />
           <Certifications />
           <GetInTouch />

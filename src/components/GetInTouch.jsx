@@ -1,14 +1,13 @@
 import React from 'react';
-import myPicture from '../images/myPicture.png'; // Replace with your actual image path
+import myPicture from '../assets/images/myPicture.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
 const GetInTouch = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center p-8 bg-gray-900 text-white space-y-8 md:space-y-0 md:space-x-8 relative">
-      
-      {/* Image Section */}
+    <section   id="contact" className="flex flex-col md:flex-row items-center p-8 bg-gray-900 text-white space-y-8 md:space-y-0 md:space-x-8 relative">
+   <div className="absolute top-0 left-0 w-full h-1 bg-[#55E5A4]"></div>
       <div className="md:w-1/3 w-full flex justify-center md:justify-start">
         <img 
           src={myPicture} 
@@ -17,14 +16,12 @@ const GetInTouch = () => {
         />
       </div>
 
-      {/* Contact Information */}
       <div className="md:w-2/3 w-full space-y-4">
         <h2 className="text-3xl font-bold">Get in Touch</h2>
         <p className="text-md md:text-lg">
           I’m always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out!
         </p>
-        
-        {/* Contact Details */}
+ 
         <div className="space-y-3">
           <a href="mailto:abdellatifibnessayeh@gmail.com" className="flex items-center space-x-3">
             <FontAwesomeIcon icon={faEnvelope} className="text-[#55E5A4]" />
@@ -36,7 +33,6 @@ const GetInTouch = () => {
           </div>
         </div>
 
-        {/* Social Media Icons */}
         <div className="flex space-x-4 mt-4">
           <a href="https://linkedin.com/in/IBNESSAYEH" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className="text-3xl text-[#55E5A4] hover:text-white transition-all" />
@@ -46,7 +42,6 @@ const GetInTouch = () => {
           </a>
         </div>
 
-        {/* Contact Button */}
         <button className="px-6 py-2 mt-4 bg-[#55E5A4] text-gray-900 font-semibold rounded-md hover:bg-opacity-90 transition-all">
          <a href="https://linkedin.com/in/IBNESSAYEH">Contact Me</a>
         </button>
