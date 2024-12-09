@@ -7,6 +7,7 @@ import Certifications from './components/Certifications';
 import GetInTouch from './components/GetInTouch';
 import { PortfolioProvider } from './contexts/PortfolioContext';
 import { CertificationsProvider } from './contexts/CertificationsContext';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import 'flowbite';
 import Expertise from './components/Expertise';
