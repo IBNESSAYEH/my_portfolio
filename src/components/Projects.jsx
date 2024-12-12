@@ -28,14 +28,14 @@ const Projects = () => {
       link: ["https://github.com/IBNESSAYEH/BatiCouisine"]
     },
     {
-      images: [SamsarImage1, SamsarImage2, SamsarImage3],
+      images: [SamsarImage3, SamsarImage1, SamsarImage2],
       title: "Samsar Online",
       description: "Samsar Online is a modern platform inspired by Airbnb, designed to connect property owners with individuals seeking short-term accommodations. It provides a seamless and user-friendly experience for both hosts and guests, streamlining the process of booking and managing rentals.",
       technologies: ["React", "Laravel"],
       link:[ "https://github.com/IBNESSAYEH/SamsarOnline", "https://github.com/IBNESSAYEH/samsarOnlineFrontend"]
     },
     {
-      images: [evento1, evento2],
+      images: [evento2, evento1],
       title: "Evento",
       description: "Evento is an innovative platform designed to simplify event organization and ticket purchasing. Whether you're planning a corporate event, a concert, or a personal gathering, Evento provides all the tools necessary to ensure a seamless experience for organizers and attendees alike.",
       technologies: ["Laravel"],
